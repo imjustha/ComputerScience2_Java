@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/BasicOutputWithVariables/BasicOutputWithVariables1.iml" filepath="$PROJECT_DIR$/IntroductionToJava/BasicOutputWithVariables/BasicOutputWithVariables1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ComputerScience2_Java.iml" filepath="$PROJECT_DIR$/.idea/ComputerScience2_Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/HelloWorld1/HelloWorld11.iml" filepath="$PROJECT_DIR$/IntroductionToJava/HelloWorld1/HelloWorld11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/HelloWorld2/HelloWorld21.iml" filepath="$PROJECT_DIR$/IntroductionToJava/HelloWorld2/HelloWorld21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/HouseRealEstateSummary/HouseRealEstateSummary1.iml" filepath="$PROJECT_DIR$/IntroductionToJava/HouseRealEstateSummary/HouseRealEstateSummary1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/NoParkingSign/NoParkingSign1.iml" filepath="$PROJECT_DIR$/IntroductionToJava/NoParkingSign/NoParkingSign1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/OneLargeProgram/OneLargeProgram1.iml" filepath="$PROJECT_DIR$/IntroductionToJava/OneLargeProgram/OneLargeProgram1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroductionToJava/RightFacingArrow/RightFacingArrow1.iml" filepath="$PROJECT_DIR$/IntroductionToJava/RightFacingArrow/RightFacingArrow1.iml" />
+    </modules>
+  </component>
+</project>
