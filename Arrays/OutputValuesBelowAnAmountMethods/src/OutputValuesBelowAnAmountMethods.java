@@ -16,8 +16,32 @@ Such functionality is common on sites like Amazon, where a user can filter resul
 The program must define the following two methods:
 public static void getUserValues(int[] myArr, int arrSize, Scanner scnr) - read arrSize integers and store the integers in myArr.
 
-public static int intsLessThanOrEqualToThreshold(int[] userValues, int userValsSize, int upperThreshold, int[] resValues) - store in resValues values of userValues that are less than or equal to upperThreshold. Return the number of integers in resValues.
+public static int intsLessThanOrEqualToThreshold(int[] userValues, int userValsSize,
+int upperThreshold, int[] resValues) - store in resValues values of userValues that are less than or equal to upperThreshold.
+Return the number of integers in resValues.
 
  */
 public class OutputValuesBelowAnAmountMethods {
+    /* Define your methods here */
+
+    public static void main(String[] args) {
+        Scanner scnr = new Scanner(System.in);
+        int[] userValues = new int[20];
+        int[] resValues = new int[20];
+        int upperThreshold;
+        int numInVals;
+        int numResVals;
+        int i;
+
+        numInVals = scnr.nextInt();
+        getUserValues(userValues, numInVals, scnr);
+
+        upperThreshold = scnr.nextInt();
+        numResVals = intsLessThanOrEqualToThreshold(userValues, numInVals, upperThreshold, resValues);
+
+        for (i = 0; i < numResVals; ++i) {
+            System.out.print(resValues[i] + " ");
+        }
+        System.out.println();
+    }
 }
